@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libros [
 <!ELEMENT libros (Libro)+>
 <!ELEMENT Libro (Titulo,Comentarios*, Categoria+, Precio?)>
 <!ELEMENT Categoria (#PCDATA)>
@@ -11,3 +13,14 @@
         paginas CDATA #REQUIRED
         autor NMTOKENS #IMPLIED
         editor NMTOKENS #IMPLIED>
+  ]>
+  
+  <libros>
+    <Libro>
+          <Categoria>Drama</Categoria>
+          <Titulo>El lobo estepario</Titulo>
+          <Comentarios>Solo para locos</Comentarios>
+          <Precio moneda="eur"/>
+          <isbn nivel="" fecha="1927" paginas="222" autor="Hermann Hesse" editor="Varios" />
+    </Libro>
+  </libros>

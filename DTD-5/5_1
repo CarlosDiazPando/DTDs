@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resultados [
+<!ELEMENT resultados (partido)>
+<!ELEMENT partido (equipoLocal, equipoVisitante, golesLocal, golesVisitante)>
+<!ELEMENT equipoLocal (#PCDATA)>
+<!ELEMENT equipoVisitante (#PCDATA)>
+<!ELEMENT golesLocal (#PCDATA)>
+<!ELEMENT golesVisitante (#PCDATA)>
+]>
+
+<resultados>
+  <partido>
+    <equipoLocal>Nottingham Presa</equipoLocal>
+    <equipoVisitante>Inter de Mitente</equipoVisitante>
+    <golesLocal>0</golesLocal>
+    <golesVisitante>1</golesVisitante>
+  </partido>
+</resultados>
