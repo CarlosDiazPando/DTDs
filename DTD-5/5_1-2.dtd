@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resultados [
+<!ELEMENT resultados (partido+)>
+<!ELEMENT partido (equipoLocal, equipoVisitante)>
+<!ELEMENT equipoLocal (#PCDATA)>
+<!ELEMENT equipoVisitante (#PCDATA)>
+<!ATTLIST equipoLocal golesLocal CDATA #REQUIRED>
+<!ATTLIST equipoVisitante golesVisitante CDATA #REQUIRED>
+]>
+
+<resultados>
+  <partido>
+    <equipoLocal golesLocal="0">Nottingham Presa</equipoLocal>
+    <equipoVisitante golesVisitante="1">Inter de Mitente</equipoVisitante>
+  </partido>
+  <partido>
+    <equipoLocal golesLocal="3">Vodka Juniors</equipoLocal>
+    <equipoVisitante golesVisitante="3">Sparta da Risa</equipoVisitante>
+  </partido>
+  <partido>
+    <equipoLocal golesLocal="4">Water de Munich</equipoLocal>
+    <equipoVisitante golesVisitante="2">Esteaua es del grifo</equipoVisitante>
+  </partido>
+</resultados>
+

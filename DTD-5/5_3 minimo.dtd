@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libros [
+<!ELEMENT libros (Libro)+>
+<!ELEMENT Libro (Titulo,Comentarios*, Categoria+, Precio?)>
+<!ELEMENT Categoria (#PCDATA)>
+<!ELEMENT Titulo (#PCDATA)>
+<!ELEMENT Comentarios (#PCDATA)>
+<!ELEMENT Precio (#PCDATA)>
+<!ATTLIST Precio moneda (dol|eur|lib) #REQUIRED>
+<!ATTLIST Libro isbn ID #REQUIRED
+        nivel CDATA #IMPLIED
+        fecha CDATA #REQUIRED
+        paginas CDATA #REQUIRED
+        autor NMTOKENS #IMPLIED
+        editor NMTOKENS #IMPLIED>
+  ]>
+  
+  <libros>
+    <Libro isbn="ogugoc5564" fecha="1927" paginas="222">
+          <Titulo>El lobo estepario</Titulo>
+          <Categoria>Drama</Categoria>
+    </Libro>
+</libros>

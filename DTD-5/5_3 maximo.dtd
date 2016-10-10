@@ -16,11 +16,20 @@
   ]>
   
   <libros>
-    <Libro>
-          <Categoria>Drama</Categoria>
+    <Libro isbn="ogugoc5564" nivel="1" fecha="1927" paginas="222" autor="Hermann Hesse" editor="Varios">
           <Titulo>El lobo estepario</Titulo>
           <Comentarios>Solo para locos</Comentarios>
+          <Comentarios>No para cualquiera</Comentarios>
+          <Categoria>Drama</Categoria>
+          <Categoria>Existencial</Categoria>
           <Precio moneda="eur"/>
-          <isbn nivel="" fecha="1927" paginas="222" autor="Hermann Hesse" editor="Varios" />
+    </Libro>
+        <Libro isbn="d6168" nivel="1" fecha="1967" paginas="187" autor="Tom Sharpe" editor="Varios">
+          <Titulo>Wilt</Titulo>
+          <Comentarios>Carne uno desquicia a cualquiera</Comentarios>
+          <Comentarios>Eva Wilt está loca</Comentarios>
+          <Categoria>Comedia</Categoria>
+          <Categoria>Risa</Categoria>
+          <Precio moneda="eur"/>
     </Libro>
   </libros>
