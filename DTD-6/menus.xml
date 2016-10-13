@@ -1,4 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE menus [
+<!ELEMENT menus (menu)*>
+<!ELEMENT menu (comida, bebida)>
+<!ELEMENT comida (primero, segundo, postre)>
+<!ELEMENT primero ANY>
+<!ELEMENT segundo ANY>
+<!ELEMENT postre ANY>
+<!ELEMENT opcion EMPTY>
+<!ELEMENT bebida ANY>
+<!ATTLIST menu precio CDATA #REQUIRED>
+<!ATTLIST menu tarjeta CDATA #IMPLIED>
+<!ATTLIST bebida tamanyo CDATA #REQUIRED>
+<!ATTLIST opcion tipo CDATA #REQUIRED>
+]>
+
+
 <menus>
   <menu precio="10" tarjeta="no">
     <comida>
