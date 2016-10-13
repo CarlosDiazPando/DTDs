@@ -3,11 +3,11 @@
 <!ELEMENT menus (menu)*>
 <!ELEMENT menu (comida, bebida)>
 <!ELEMENT comida (primero, segundo, postre)>
-<!ELEMENT primero ANY>
-<!ELEMENT segundo ANY>
-<!ELEMENT postre ANY>
+<!ELEMENT primero (#PCDATA|opcion)*>
+<!ELEMENT segundo (#PCDATA|opcion)*>
+<!ELEMENT postre (#PCDATA|opcion)*>
 <!ELEMENT opcion EMPTY>
-<!ELEMENT bebida ANY>
+<!ELEMENT bebida (#PCDATA|opcion)*>
 <!ATTLIST menu precio CDATA #REQUIRED>
 <!ATTLIST menu tarjeta CDATA #IMPLIED>
 <!ATTLIST bebida tamanyo CDATA #REQUIRED>
