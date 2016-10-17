@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnos SYSTEM "file:///E:/entornos/git/DTDs/DTD-6/6_3%20dtd.dtd">
+<alumnos>
+  <alumno>
+    <nombre DNI="66666666S">Juan</nombre>
+    <apellidos>Juanez Juanez</apellidos>
+    <edad>14</edad>
+    <direccion>
+      <calle>El Matadero</calle>
+      <numero>3,141592</numero>
+      <piso>35</piso>
+      <poblacion>Blimea</poblacion>
+      <cp>33888</cp>
+    </direccion>
+    <nota>5</nota>
+    <comentario>Trabaja lo mínimo</comentario>
+  </alumno>
+  <alumno>
+    <nombre DNI="71717171A">Julio</nombre>  
+    <apellidos>Bastante Gordo</apellidos>
+    <edad>16</edad>
+    <direccion>
+      <calle>Benito Mussolini</calle>
+      <numero>1923</numero>
+      <piso>11</piso>
+      <poblacion>Alcobendas</poblacion>
+      <cp>25555</cp>
+    </direccion>
+    <nota>8</nota>
+    <comentario>Estamos seguros de que copia, aún no demostrado</comentario>
+  </alumno>
+  <alumno>
+    <nombre DNI="12345678Ñ">Lucas</nombre>  
+    <apellidos>Pérez Agirregomezkorta</apellidos>
+    <edad>25</edad>
+    <nota>3</nota>
+    <comentario>Sigue en 3º de la ESO con 25 años</comentario>
+  </alumno>
+</alumnos>
